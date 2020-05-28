@@ -1,0 +1,10 @@
+src
+assets
+
+tsconfig.json
+.travis.yml
+.prettierrc
+
+.eslintrc.js
+global.d.ts
+yarn-error.log
