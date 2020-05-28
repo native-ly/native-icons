@@ -15,11 +15,11 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons'
 
 import type { FontType } from '../types/FontType'
 
-// const customIcons = {}
+const customIcons: Record<string, string> = {}
 
-// export const registerCustomIconType = (id, customIcon) => {
-//   customIcons[id] = customIcon
-// }
+export const registerCustomIconType = (id: string, customIcon: string) => {
+  customIcons[id] = customIcon
+}
 
 export const getIconType = (type?: FontType) => {
   switch (type) {
@@ -66,9 +66,9 @@ export const getIconType = (type?: FontType) => {
       return SimpleLineIcons
 
     default:
-      // if (Object.prototype.hasOwnProperty.call(customIcons, type)) {
-      //   return customIcons[type]
-      // }
+      if (Object.prototype.hasOwnProperty.call(customIcons, type!)) {
+        return customIcons[type!]
+      }
 
       return MaterialIcons
   }
