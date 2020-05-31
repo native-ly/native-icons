@@ -29,7 +29,24 @@ import Icon from 'native-icons';
 ## Options
 Name | Type | Default | Description | Available options
 -|-|-|-|-
-family | string | ` ` | Icons font family | `ant-design`, `entypo`, `evil-icons`, `feather`, `font-awesome`, `font-awesome-5`, `fontisto`, `foundation`, `ionicons`, `material-icons`, `material-community-icons`, `octicon`, `zocial`, `simple-line-icon`
+type | string | ` ` | Icons font type | [Icon Types](https://github.com/native-ly/native-icons#)
+
+### Available Icon Types
+
+> `ant-design`
+> `entypo`
+> `evil-icons`
+> `feather`
+> `font-awesome`
+> `font-awesome-5`
+> `fontisto`
+> `foundation`
+> `ionicons`
+> `material-icons`
+> `material-community-icons`
+> `octicon`
+> `zocial`
+> `simple-line-icon`
 
 ## License
 This project is licensed under the MIT License © 2020-present Jakub Biesiada
