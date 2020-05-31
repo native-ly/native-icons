@@ -1,6 +1,6 @@
 {
   "name": "native-icons",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Icon component for React Native & Expo with better font family management",
   "author": "Jakub Biesiada",
   "license": "MIT",
@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-native": "^3.8.1",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.6",
+    "lint-staged": "^10.2.7",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-native": "^0.62.1",
