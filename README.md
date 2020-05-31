@@ -29,7 +29,7 @@ import Icon from 'native-icons';
 ## Options
 Name | Type | Default | Description | Available options
 -|-|-|-|-
-type | string | ` ` | Icons font type | [Icon Types](https://github.com/native-ly/native-icons##available-icon-types)
+type | string | ` ` | Icons font type | [Icon Types](https://github.com/native-ly/native-icons#available-icon-types)
 
 ### Available Icon Types
 
