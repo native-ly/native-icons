@@ -1,27 +1,30 @@
 {
   "name": "native-icons",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Icon component for React Native & Expo with better font family management",
   "author": "Jakub Biesiada",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "release": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
+    "//": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
     "build": "tsc",
     "watch": "npm run build -- --watch",
     "lint": "eslint --fix 'src/**/*.{tsx,ts}'",
-    "prettier": "prettier --write 'src/**/*.{tsx,ts}'"
+    "prettier": "prettier --write 'src/**/*.{tsx,ts}'",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/native-ly/native-icons.git"
   },
   "keywords": [
-    "TypeScript",
-    "React",
-    "React Native",
-    "icons"
+    "react-native",
+    "expo",
+    "vector",
+    "icons",
+    "library",
+    "component"
   ],
   "bugs": {
     "url": "https://github.com/native-ly/native-icons/issues"
@@ -32,21 +35,22 @@
   },
   "devDependencies": {
     "@types/color": "^3.0.1",
-    "@types/react": "^16.9.41",
-    "@types/react-native": "^0.62.16",
+    "@types/react": "^16.9.44",
+    "@types/react-native": "^0.63.2",
     "@types/react-native-vector-icons": "^6.4.5",
-    "@typescript-eslint/parser": "^3.5.0",
-    "eslint": "^7.4.0",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-native": "^3.8.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-native": "^0.62.1",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7",
+    "semantic-release": "^17.1.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
