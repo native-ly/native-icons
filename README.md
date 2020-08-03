@@ -4,7 +4,6 @@
 [![NPM downloads](https://img.shields.io/npm/dm/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
 [![NPM license](https://img.shields.io/npm/l/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
 [![Travis](https://img.shields.io/travis/native-ly/native-icons?style=flat-square)](https://travis-ci.org/native-ly/native-icons)
-[![Bundle size](https://img.shields.io/bundlephobia/min/native-icons?style=flat-square)](https://bundlephobia.com/result?p=native-icons)
 
 ## About
 
