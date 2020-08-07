@@ -16,9 +16,9 @@ describe('NativeIcons', () => {
     ['ios-add', 'ionicons'],
     ['add', 'material-icons'],
     ['plus', 'material-community-icons'],
-    ['plus', 'octicon'],
+    ['plus', 'octicons'],
     ['facebook', 'zocial'],
-    ['plus', 'simple-line-icon'],
+    ['plus', 'simple-line-icons'],
   ])('should render %s from %s', (icon, type) => {
     const { toJSON } = render(<NativeIcons type={type} icon={icon} />)
 

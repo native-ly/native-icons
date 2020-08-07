@@ -290,7 +290,7 @@ exports[`NativeIcons should render plus from material-community-icons 1`] = `
 </Text>
 `;
 
-exports[`NativeIcons should render plus from octicon 1`] = `
+exports[`NativeIcons should render plus from octicons 1`] = `
 <Text
   allowFontScaling={false}
   icon="plus"
@@ -302,7 +302,7 @@ exports[`NativeIcons should render plus from octicon 1`] = `
       },
       undefined,
       Object {
-        "fontFamily": "Material Icons",
+        "fontFamily": "Octicons",
         "fontStyle": "normal",
         "fontWeight": "normal",
       },
@@ -314,7 +314,7 @@ exports[`NativeIcons should render plus from octicon 1`] = `
 </Text>
 `;
 
-exports[`NativeIcons should render plus from simple-line-icon 1`] = `
+exports[`NativeIcons should render plus from simple-line-icons 1`] = `
 <Text
   allowFontScaling={false}
   icon="plus"
@@ -326,7 +326,7 @@ exports[`NativeIcons should render plus from simple-line-icon 1`] = `
       },
       undefined,
       Object {
-        "fontFamily": "Material Icons",
+        "fontFamily": "simple-line-icons",
         "fontStyle": "normal",
         "fontWeight": "normal",
       },
