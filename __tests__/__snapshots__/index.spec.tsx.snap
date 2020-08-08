@@ -1,5 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`NativeIcons should 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="add"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
 exports[`NativeIcons should render add from material-icons 1`] = `
 <Text
   allowFontScaling={false}

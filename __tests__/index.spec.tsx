@@ -24,4 +24,10 @@ describe('NativeIcons', () => {
 
     expect(toJSON()).toMatchSnapshot()
   })
+
+  it('should', () => {
+    const { toJSON } = render(<NativeIcons icon="add" />)
+
+    expect(toJSON()).toMatchSnapshot()
+  })
 })
