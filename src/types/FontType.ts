@@ -13,3 +13,4 @@ export type FontType =
   | 'octicons'
   | 'zocial'
   | 'simple-line-icons'
+  | string
