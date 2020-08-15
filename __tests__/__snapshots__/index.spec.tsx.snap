@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NativeIcons should 1`] = `
+exports[`NativeIcons should render add from material-icons 1`] = `
 <Text
   allowFontScaling={false}
   icon="add"
@@ -24,7 +24,7 @@ exports[`NativeIcons should 1`] = `
 </Text>
 `;
 
-exports[`NativeIcons should render add from material-icons 1`] = `
+exports[`NativeIcons should render add icon from default library – material-icons 1`] = `
 <Text
   allowFontScaling={false}
   icon="add"
