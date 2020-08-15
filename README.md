@@ -52,9 +52,9 @@ import Icon from 'native-icons'
 - `ionicons`
 - `material-icons`
 - `material-community-icons`
-- `octicon`
+- `octicons`
 - `zocial`
-- `simple-line-icon`
+- `simple-line-icons`
 
 ## License
 
