@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`NativeIcons should register custom font 1`] = `
+<plus
+  icon="plus"
+/>
+`;
+
 exports[`NativeIcons should render add from material-icons 1`] = `
 <Text
   allowFontScaling={false}
