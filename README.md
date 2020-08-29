@@ -9,6 +9,13 @@
 
 Icon component for React Native & Expo with better font family management
 
+### Similar Projects
+
+- [react-native-dynamic-vector-icons](https://github.com/WrathChaos/react-native-dynamic-vector-icons/) by [FreakyCoder](https://github.com/WrathChaos/)
+- [React Native Easy Icon](https://github.com/NewBieBR/react-native-easy-icon/) by [Arthur Dao](https://github.com/NewBieBR/)
+
+This solution is also available in [React Native Elements](https://github.com/react-native-elements/react-native-elements/)
+
 ## How to Install
 
 First, install the library in your project by npm:
@@ -54,9 +61,9 @@ import Icon from 'native-icons'
 - `ionicons`
 - `material-icons`
 - `material-community-icons`
-- `octicon`
+- `octicons`
 - `zocial`
-- `simple-line-icon`
+- `simple-line-icons`
 
 ## License
 

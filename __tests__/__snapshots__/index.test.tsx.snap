@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NativeIcons should render add from material-icons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="add"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render add icon from default library – material-icons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="add"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render facebook from fontisto 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="facebook"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Fontisto",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render facebook from zocial 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="facebook"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "zocial",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render ios-add from ionicons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="ios-add"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Ionicons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from ant-design 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "anticon",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from entypo 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Entypo",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from evil-icons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "EvilIcons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from feather 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Feather",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from font-awesome 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "FontAwesome",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from font-awesome-5 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "FontAwesome5Free-Regular",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {
+        "fontWeight": "400",
+      },
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from foundation 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "fontcustom",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from material-community-icons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Design Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from octicons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Octicons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
+
+exports[`NativeIcons should render plus from simple-line-icons 1`] = `
+<Text
+  allowFontScaling={false}
+  icon="plus"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "simple-line-icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;
