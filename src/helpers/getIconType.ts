@@ -15,6 +15,12 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons'
 
 import type { FontType } from '../types/FontType'
 
+const customIcons: Record<string, string> = {}
+
+export const registerCustomIconType = (id: string, customIcon: string) => {
+  customIcons[id] = customIcon
+}
+
 export const getIconType = (type?: FontType) => {
   switch (type) {
     case 'ant-design':
