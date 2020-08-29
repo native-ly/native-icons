@@ -3,6 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
 [![NPM downloads](https://img.shields.io/npm/dm/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
 [![NPM license](https://img.shields.io/npm/l/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
+[![Codecov](https://img.shields.io/codecov/c/github/native-ly/native-icons?style=flat-square)](https://codecov.io/gh/native-ly/native-icons)
 [![Travis](https://img.shields.io/travis/native-ly/native-icons/master?style=flat-square)](https://travis-ci.org/native-ly/native-icons)
 
 ## About
