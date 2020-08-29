@@ -1,7 +1,9 @@
 # [NativeIcons](https://github.com/native-ly/native-icons)
 
-[![NPM version](http://img.shields.io/npm/v/native-icons.svg?style=flat-square)](https://www.npmjs.com/package/native-icons)
-[![NPM downloads](http://img.shields.io/npm/dm/native-icons.svg?style=flat-square)](https://www.npmjs.com/package/native-icons)
+[![NPM version](https://img.shields.io/npm/v/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
+[![NPM downloads](https://img.shields.io/npm/dm/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
+[![NPM license](https://img.shields.io/npm/l/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
+[![Travis](https://img.shields.io/travis/native-ly/native-icons/master?style=flat-square)](https://travis-ci.org/native-ly/native-icons)
 
 ## About
 
