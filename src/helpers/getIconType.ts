@@ -59,15 +59,7 @@ export const getIconType = (type?: FontType) => {
     case 'simple-line-icons':
       return SimpleLineIcons
 
-    default: {
-      if (
-        typeof type === 'string' &&
-        Object.prototype.hasOwnProperty.call(customIcons, type)
-      ) {
-        return customIcons[type]
-      }
-
+    default:
       return MaterialIcons
-    }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react-native'
 
-import NativeIcons, { registerCustomIconType } from '../src'
+import NativeIcons from '../src'
 
 describe('NativeIcons', () => {
   it.each([
@@ -27,16 +27,6 @@ describe('NativeIcons', () => {
 
   it('should render add icon from default library – material-icons', () => {
     const { toJSON } = render(<NativeIcons icon="add" />)
-
-    expect(toJSON()).toMatchSnapshot()
-  })
-
-  it('should register custom font', () => {
-    const customFont = 'custom-font'
-
-    registerCustomIconType(customFont, 'plus')
-
-    const { toJSON } = render(<NativeIcons type={customFont} icon="plus" />)
 
     expect(toJSON()).toMatchSnapshot()
   })
