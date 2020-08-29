@@ -7,13 +7,16 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "//": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
+    "prepack": "npm run clean && npm run prettier && npm run lint && npm run build",
+    "clean": "rimraf lib/*",
     "build": "tsc",
     "test": "jest --coverage",
     "watch": "npm run build -- --watch",
     "watch:test": "npm run test -- --watch",
     "lint": "eslint --fix 'src/**/*.{tsx,ts}'",
-    "prettier": "prettier --write 'src/**/*.{tsx,ts}'"
+    "prettier": "prettier --write 'src/**/*.{tsx,ts}'",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -61,6 +64,11 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-native": ">=0.59.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "husky": {
     "hooks": {
