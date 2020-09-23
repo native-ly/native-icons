@@ -1,4 +1,4 @@
-# NativeIcons Changelog
+# native-icons Changelog
 
 ## 1.1.0 (2020-07-05)
 
