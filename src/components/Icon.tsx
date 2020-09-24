@@ -9,7 +9,7 @@ interface Props extends IconProps {
   readonly type?: FontType
 }
 
-export const Icon: React.FC<Props> = ({ type, ...props }) => {
+export const Icon = ({ type, ...props }: Props) => {
   const IconComponent = getIconType(type)
 
   return <IconComponent {...props} />
