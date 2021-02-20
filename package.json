@@ -1,6 +1,6 @@
 {
   "name": "native-icons",
-  "version": "1.2.0",
+  "version": "1.2.1-dynamic.0",
   "description": "Icon component for React Native & Expo with better font family management",
   "author": "Jakub Biesiada",
   "license": "MIT",
