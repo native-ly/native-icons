@@ -1,3 +1,2 @@
-import { Icon } from './components/Icon'
-
-export default Icon
+export { Icon as default } from './components/Icon'
+export type { FontType } from './types/FontType'
