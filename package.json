@@ -23,12 +23,12 @@
     "url": "https://github.com/native-ly/native-icons.git"
   },
   "keywords": [
-    "react-native",
-    "expo",
-    "vector",
-    "icons",
     "library",
-    "component"
+    "react-native",
+    "component",
+    "icons",
+    "vector",
+    "expo"
   ],
   "bugs": {
     "url": "https://github.com/native-ly/native-icons/issues"
