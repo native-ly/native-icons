@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { IconProps } from 'react-native-vector-icons/Icon'
+
+import { NativeIconsContext } from '../context'
 
 import { getIconType } from '../helpers/getIconType'
 
@@ -10,7 +12,9 @@ interface Props extends IconProps {
 }
 
 export const Icon = ({ type, ...props }: Props) => {
-  const IconComponent = getIconType(type)
+  const iconsContext = useContext(NativeIconsContext)
+
+  const IconComponent = getIconType(type || iconsContext?.type)
 
   return <IconComponent {...props} />
 }
