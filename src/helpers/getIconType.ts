@@ -1,4 +1,26 @@
+import { Platform } from 'react-native'
+
 import type { FontType } from '../types/FontType'
+
+const prepareDefaultType = () => {
+  switch (Platform.OS) {
+    case 'ios':
+    case 'macos':
+      return require('react-native-vector-icons/Ionicons').default
+
+    case 'android':
+      return require('react-native-vector-icons/MaterialIcons').default
+
+    case 'windows':
+      return
+
+    case 'web':
+      return
+
+    default:
+      return
+  }
+}
 
 export const getIconType = (type?: FontType) => {
   switch (type) {
@@ -45,6 +67,6 @@ export const getIconType = (type?: FontType) => {
       return require('react-native-vector-icons/SimpleLineIcons').default
 
     default:
-      return require('react-native-vector-icons/MaterialIcons').default
+      return prepareDefaultType()
   }
 }
