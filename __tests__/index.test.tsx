@@ -30,4 +30,6 @@ describe('NativeIcons', () => {
 
     expect(toJSON()).toMatchSnapshot()
   })
+
+  it.todo('add tests for context')
 })
