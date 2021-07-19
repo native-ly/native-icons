@@ -1,5 +1,5 @@
 import type { FontType } from './FontType'
 
-export type Props = {
+export interface Props {
   readonly type?: FontType
 }
