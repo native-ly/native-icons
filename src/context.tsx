@@ -9,10 +9,11 @@ export const NativeIconsContext = React.createContext<FontType | undefined>(
 
 NativeIconsContext.displayName = 'NativeIconsContext'
 
-export const NativeIconsProvider: React.FC<Props> = ({ children, type }) => (
+export const NativeIconsProvider = ({
+  children,
+  type,
+}: Props & { readonly children: React.ReactNode }) => (
   <NativeIconsContext.Provider value={type}>
     {children}
   </NativeIconsContext.Provider>
 )
-
-NativeIconsProvider.displayName = 'NativeIconsProvider'
