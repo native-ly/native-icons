@@ -7,8 +7,7 @@ export const NativeIconsContext = React.createContext<FontType | undefined>(
   undefined
 )
 
-// TODO? remove
-// NativeIconsContext.displayName = 'NativeIconsContext'
+NativeIconsContext.displayName = 'NativeIconsContext'
 
 export const NativeIconsProvider = ({
   children,
@@ -18,5 +17,3 @@ export const NativeIconsProvider = ({
     {children}
   </NativeIconsContext.Provider>
 )
-
-NativeIconsProvider.displayName = 'NativeIconsProvider'
