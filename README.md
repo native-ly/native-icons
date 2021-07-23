@@ -47,6 +47,8 @@ import Icon from 'native-icons'
 
 ### IconsProvider
 
+IconsProvider allows you to set a global icon type for all icons. You don't need to use it. You can pass a type directly to the Icon component. When provider is set and type passed to Icon component, the type from context will be overwritten.
+
 | Name | Type   | Default | Description     | Available options                   |
 | ---- | ------ | ------- | --------------- | ----------------------------------- |
 | type | string | ` `     | Icons font type | [Icon Types](#available-icon-types) |
