@@ -3,17 +3,13 @@ import React from 'react'
 import type { FontType } from './types/FontType'
 import type { Props } from './types/Props'
 
-export const NativeIconsContext = React.createContext<FontType | undefined>(
-  undefined
-)
+export const IconsContext = React.createContext<FontType | undefined>(undefined)
 
-NativeIconsContext.displayName = 'NativeIconsContext'
+IconsContext.displayName = 'IconsContext'
 
-export const NativeIconsProvider = ({
+export const IconsProvider = ({
   children,
   type,
 }: Props & { readonly children: React.ReactNode }) => (
-  <NativeIconsContext.Provider value={type}>
-    {children}
-  </NativeIconsContext.Provider>
+  <IconsContext.Provider value={type}>{children}</IconsContext.Provider>
 )

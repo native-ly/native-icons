@@ -1,3 +1,3 @@
 export { Icon as default } from './components/Icon'
-export { NativeIconsProvider } from './context'
+export { IconsProvider } from './context'
 export type { FontType } from './types/FontType'

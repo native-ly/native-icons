@@ -45,7 +45,7 @@ import Icon from 'native-icons'
 
 ## Options
 
-### NativeIconsProvider
+### IconsProvider
 
 | Name | Type   | Default | Description     | Available options                   |
 | ---- | ------ | ------- | --------------- | ----------------------------------- |
@@ -53,7 +53,7 @@ import Icon from 'native-icons'
 
 ### Icon
 
-Component extends [react-native-vector-icons props](https://github.com/oblador/react-native-vector-icons#icon-component) and implements [NativeIconsProvider props](#native-icons-provider)
+Component extends [react-native-vector-icons props](https://github.com/oblador/react-native-vector-icons#icon-component) and implements [IconsProvider props](#iconsprovider)
 
 ### Available Icon Types
 
