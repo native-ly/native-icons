@@ -3,7 +3,6 @@
 exports[`NativeIcons should render add from material-icons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="add"
   style={
     Array [
       Object {
@@ -20,14 +19,13 @@ exports[`NativeIcons should render add from material-icons 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render add icon from default library – material-icons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="add"
   style={
     Array [
       Object {
@@ -44,14 +42,13 @@ exports[`NativeIcons should render add icon from default library – material-ic
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render facebook from fontisto 1`] = `
 <Text
   allowFontScaling={false}
-  icon="facebook"
   style={
     Array [
       Object {
@@ -68,14 +65,13 @@ exports[`NativeIcons should render facebook from fontisto 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render facebook from zocial 1`] = `
 <Text
   allowFontScaling={false}
-  icon="facebook"
   style={
     Array [
       Object {
@@ -92,14 +88,13 @@ exports[`NativeIcons should render facebook from zocial 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render ios-add from ionicons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="ios-add"
   style={
     Array [
       Object {
@@ -116,14 +111,13 @@ exports[`NativeIcons should render ios-add from ionicons 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from ant-design 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -140,14 +134,13 @@ exports[`NativeIcons should render plus from ant-design 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from entypo 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -164,14 +157,13 @@ exports[`NativeIcons should render plus from entypo 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from evil-icons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -188,14 +180,13 @@ exports[`NativeIcons should render plus from evil-icons 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from feather 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -212,14 +203,13 @@ exports[`NativeIcons should render plus from feather 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from font-awesome 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -236,14 +226,13 @@ exports[`NativeIcons should render plus from font-awesome 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from font-awesome-5 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -252,24 +241,23 @@ exports[`NativeIcons should render plus from font-awesome-5 1`] = `
       },
       undefined,
       Object {
-        "fontFamily": "FontAwesome5Free-Regular",
+        "fontFamily": "FontAwesome5Free-Solid",
         "fontStyle": "normal",
         "fontWeight": "normal",
       },
       Object {
-        "fontWeight": "400",
+        "fontWeight": "900",
       },
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from foundation 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -286,14 +274,13 @@ exports[`NativeIcons should render plus from foundation 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from material-community-icons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -310,14 +297,13 @@ exports[`NativeIcons should render plus from material-community-icons 1`] = `
     ]
   }
 >
-  
+  󰐕
 </Text>
 `;
 
 exports[`NativeIcons should render plus from octicons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -334,14 +320,13 @@ exports[`NativeIcons should render plus from octicons 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
 
 exports[`NativeIcons should render plus from simple-line-icons 1`] = `
 <Text
   allowFontScaling={false}
-  icon="plus"
   style={
     Array [
       Object {
@@ -358,6 +343,6 @@ exports[`NativeIcons should render plus from simple-line-icons 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
