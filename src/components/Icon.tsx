@@ -7,10 +7,13 @@ import { getIconType } from '../helpers/getIconType'
 
 import type { Props } from '../types/Props'
 
-export const Icon = ({ type, ...props }: Props & IconProps) => {
-  const contextFontType = useContext(NativeIconsContext)
+// TODO? type for name optional when has context provided
+export const Icon = ({ type, name, ...props }: Props & IconProps) => {
+  const iconsContext = useContext(NativeIconsContext)
 
-  const IconComponent = getIconType(type || contextFontType)
+  // TODO
+  const IconComponent = getIconType(type || iconsContext.type)
 
-  return <IconComponent {...props} />
+  // TODO
+  return <IconComponent name={name || iconsContext.fallbackIcon} {...props} />
 }
