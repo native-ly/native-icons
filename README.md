@@ -1,4 +1,4 @@
-# [native-icons](https://github.com/native-ly/native-icons)
+# [Native Icons](https://github.com/native-ly/native-icons)
 
 [![NPM version](https://img.shields.io/npm/v/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
 [![NPM downloads](https://img.shields.io/npm/dm/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
