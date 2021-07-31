@@ -25,7 +25,13 @@
     "url": "https://github.com/native-ly/native-icons.git"
   },
   "keywords": [
+    "react",
+    "android",
+    "svg",
+    "font",
+    "ios",
     "library",
+    "mobile",
     "react-native",
     "component",
     "icons",
