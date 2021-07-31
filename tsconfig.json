@@ -1,15 +1,10 @@
 {
+  "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "target": "ES5",
-    "module": "ESNext",
-    "checkJs": false,
     "declaration": true,
-    "jsx": "react-native",
     "outDir": "lib",
-    "strict": true,
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noEmit": false
   },
   "include": ["src"]
 }
