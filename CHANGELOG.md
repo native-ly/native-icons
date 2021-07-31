@@ -10,4 +10,4 @@
 
 #### New Feature
 
-- added `Icon` component
+- added the `Icon` component
