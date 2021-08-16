@@ -1,10 +1,11 @@
 # [Native Icons](https://github.com/native-ly/native-icons)
 
-[![NPM version](https://img.shields.io/npm/v/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
-[![NPM downloads](https://img.shields.io/npm/dm/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
-[![NPM license](https://img.shields.io/npm/l/native-icons?style=flat-square)](https://www.npmjs.com/package/native-icons)
-[![Codecov](https://img.shields.io/codecov/c/github/native-ly/native-icons?style=flat-square)](https://codecov.io/gh/native-ly/native-icons)
-[![Travis](https://img.shields.io/travis/com/native-ly/native-icons/main?style=flat-square)](https://travis-ci.com/native-ly/native-icons)
+[![NPM version](https://flat.badgen.net/npm/v/native-icons)](https://www.npmjs.com/package/native-icons)
+[![NPM downloads](https://flat.badgen.net/npm/dm/native-icons)](https://www.npmjs.com/package/native-icons)
+[![NPM license](https://flat.badgen.net/npm/license/native-icons)](https://www.npmjs.com/package/native-icons)
+[![Codecov](https://flat.badgen.net/codecov/c/github/native-ly/native-icons)](https://codecov.io/gh/native-ly/native-icons)
+[![Travis](https://flat.badgen.net/travis/native-ly/native-icons)](https://travis-ci.com/native-ly/native-icons)
+[![Bundle size](https://flat.badgen.net/packagephobia/install/native-icons)](https://packagephobia.com/result?p=native-icons)
 
 ## About
 
@@ -15,7 +16,7 @@ Icon component for React Native & Expo with better font family management
 - [react-native-dynamic-vector-icons](https://github.com/WrathChaos/react-native-dynamic-vector-icons/) by [FreakyCoder](https://github.com/WrathChaos/)
 - [React Native Easy Icon](https://github.com/NewBieBR/react-native-easy-icon/) by [Arthur Dao](https://github.com/NewBieBR/)
 
-Similar solution is also available in [React Native Elements](https://github.com/react-native-elements/react-native-elements/)
+A similar solution is also available in [React Native Elements](https://github.com/react-native-elements/react-native-elements/)
 
 ## How to Install
 
@@ -47,7 +48,7 @@ import Icon from 'native-icons'
 
 ### IconsProvider
 
-IconsProvider allows you to set a global icon type for all icons. You don't need to use it. You can pass a type directly to the Icon component. When provider is set and type passed to Icon component, the type from context will be overwritten.
+IconsProvider allows you to set a global icon type for all icons. You don't need to use it. You can pass the type directly to the Icon component. After setting the provider and passing the type to Icon component, the type from context will be overwritten.
 
 | Name | Type   | Default | Description     | Available options                   |
 | ---- | ------ | ------- | --------------- | ----------------------------------- |
@@ -55,7 +56,7 @@ IconsProvider allows you to set a global icon type for all icons. You don't need
 
 ### Icon
 
-Component extends [react-native-vector-icons props](https://github.com/oblador/react-native-vector-icons#icon-component) and implements [IconsProvider props](#iconsprovider)
+The component extends [react-native-vector-icons props](https://github.com/oblador/react-native-vector-icons#icon-component) and implements [IconsProvider props](#iconsprovider)
 
 ### Available Icon Types
 
