@@ -2,12 +2,12 @@
 
 ## 1.1.0 (2020-07-05)
 
-#### Change
+### Change
 
-- updated dependencies
+- updated the dependencies
 
 ## 1.0.0 (2020-06-13)
 
-#### New Feature
+### New Feature
 
-- added `Icon` component
+- added the `Icon` component

@@ -37,7 +37,7 @@ $ yarn add native-icons
 
 ## Getting Started
 
-**• Connect library with project using ES6 import:**
+**Connect the library with the project using ES6 import:**
 
 ```js
 import Icon from 'native-icons'
