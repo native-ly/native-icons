@@ -4,7 +4,7 @@
 [![NPM downloads](https://flat.badgen.net/npm/dm/native-icons)](https://www.npmjs.com/package/native-icons)
 [![NPM license](https://flat.badgen.net/npm/license/native-icons)](https://www.npmjs.com/package/native-icons)
 [![Codecov](https://flat.badgen.net/codecov/c/github/native-ly/native-icons)](https://codecov.io/gh/native-ly/native-icons)
-[![Travis](https://flat.badgen.net/travis/native-ly/native-icons)](https://travis-ci.com/native-ly/native-icons)
+[![Travis](https://flat.badgen.net/travis/native-ly/native-icons)](https://app.travis-ci.com/github/native-ly/native-icons)
 [![Bundle size](https://flat.badgen.net/packagephobia/install/native-icons)](https://packagephobia.com/result?p=native-icons)
 
 ## About
