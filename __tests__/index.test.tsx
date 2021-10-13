@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from '@testing-library/react-native'
 
-import NativeIcon, { FontType } from '../src'
+import NativeIcon, { IconsProvider, FontType } from '../src'
 
-type TestCase = [string, FontType]
+type TestCase = [icon: string, type: FontType]
 
 const testCases: TestCase[] = [
   ['plus', 'ant-design'],
@@ -35,5 +35,11 @@ describe('NativeIcons', () => {
     expect(toJSON()).toMatchSnapshot()
   })
 
-  it.skip('add tests for context', () => {})
+  it.skip('add tests for context', () => {
+    const { toJSON } = render(
+      <IconsProvider>
+        <NativeIcon />
+      </IconsProvider>
+    )
+  })
 })
