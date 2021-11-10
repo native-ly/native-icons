@@ -3,6 +3,7 @@
 [![NPM version](https://flat.badgen.net/npm/v/native-icons)](https://www.npmjs.com/package/native-icons)
 [![NPM downloads](https://flat.badgen.net/npm/dm/native-icons)](https://www.npmjs.com/package/native-icons)
 [![NPM license](https://flat.badgen.net/npm/license/native-icons)](https://www.npmjs.com/package/native-icons)
+[![run in expo snack](https://img.shields.io/badge/Run%20in%20Snack-4630EB?style=flat-square&logo=EXPO&labelColor=FFF&logoColor=000)](https://snack.expo.io/@jbiesiada/native-icons)
 [![Codecov](https://flat.badgen.net/codecov/c/github/native-ly/native-icons)](https://codecov.io/gh/native-ly/native-icons)
 [![Travis](https://flat.badgen.net/travis/native-ly/native-icons)](https://app.travis-ci.com/github/native-ly/native-icons)
 [![Bundle size](https://flat.badgen.net/packagephobia/install/native-icons)](https://packagephobia.com/result?p=native-icons)
@@ -50,9 +51,9 @@ import Icon from 'native-icons'
 
 IconsProvider allows you to set a global icon type for all icons. You don't need to use it. You can pass the type directly to the Icon component. After setting the provider and passing the type to Icon component, the type from context will be overwritten.
 
-| Name | Type   | Default | Description     | Available options                   |
-| ---- | ------ | ------- | --------------- | ----------------------------------- |
-| type | string | ` `     | Icons font type | [Icon Types](#available-icon-types) |
+| Name     | Type   | Default | Description     | Available options                   |
+| -------- | ------ | ------- | --------------- | ----------------------------------- |
+| **type** | string | ` `     | Icons font type | [Icon Types](#available-icon-types) |
 
 ### Icon
 
