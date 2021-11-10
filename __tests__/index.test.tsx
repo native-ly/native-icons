@@ -29,33 +29,37 @@ describe('NativeIcons', () => {
     expect(toJSON()).toMatchSnapshot()
   })
 
-  it('should render add icon from default library – material-icons', () => {
+  it('should render add icon from default type – material-icons', () => {
     const { toJSON } = render(<NativeIcon name="add" />)
 
     expect(toJSON()).toMatchSnapshot()
   })
 
-  it.each(testCases)('should render %s from %s', (icon, type) => {
-    const { toJSON } = render(
-      <IconsProvider type={type}>
-        <NativeIcon name={icon} />
-      </IconsProvider>
-    )
+  it.each(testCases)(
+    'should render %s from %s using value from context',
+    (icon, type) => {
+      const { toJSON } = render(
+        <IconsProvider type={type}>
+          <NativeIcon name={icon} />
+        </IconsProvider>
+      )
 
-    expect(toJSON()).toMatchSnapshot()
-  })
+      expect(toJSON()).toMatchSnapshot()
+    }
+  )
 
-  it('should render', () => {
+  it('should override icon type from context with type from icon', () => {
     const { toJSON } = render(
       <IconsProvider type="ionicons">
         <NativeIcon name="add" type="material-icons" />
+        <NativeIcon name="ios-add" />
       </IconsProvider>
     )
 
     expect(toJSON()).toMatchSnapshot()
   })
 
-  it('should render', () => {
+  it('should render icon with default type', () => {
     const { toJSON } = render(
       <IconsProvider>
         <NativeIcon name="add" />
