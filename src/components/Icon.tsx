@@ -11,7 +11,6 @@ export const Icon = ({ type, ...props }: Props & IconProps) => {
   const contextFontType = useContext(IconsContext)
 
   const IconComponent = useMemo(
-    // TODO || -> ??
     () => getIconType(type || contextFontType),
     [contextFontType, type]
   )
