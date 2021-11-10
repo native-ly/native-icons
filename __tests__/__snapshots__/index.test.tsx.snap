@@ -23,29 +23,6 @@ exports[`NativeIcons should render add from material-icons 1`] = `
 </Text>
 `;
 
-exports[`NativeIcons should render add icon from default library – material-icons 1`] = `
-<Text
-  allowFontScaling={false}
-  style={
-    Array [
-      Object {
-        "color": undefined,
-        "fontSize": 12,
-      },
-      undefined,
-      Object {
-        "fontFamily": "Material Icons",
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      },
-      Object {},
-    ]
-  }
->
-  
-</Text>
-`;
-
 exports[`NativeIcons should render facebook from fontisto 1`] = `
 <Text
   allowFontScaling={false}
