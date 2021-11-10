@@ -35,11 +35,33 @@ describe('NativeIcons', () => {
     expect(toJSON()).toMatchSnapshot()
   })
 
-  it.skip('add tests for context', () => {
+  it.each(testCases)('should render %s from %s', (icon, type) => {
     const { toJSON } = render(
-      <IconsProvider>
-        <NativeIcon />
+      <IconsProvider type={type}>
+        <NativeIcon name={icon} />
       </IconsProvider>
     )
+
+    expect(toJSON()).toMatchSnapshot()
+  })
+
+  it('should render', () => {
+    const { toJSON } = render(
+      <IconsProvider type="ionicons">
+        <NativeIcon name="add" type="material-icons" />
+      </IconsProvider>
+    )
+
+    expect(toJSON()).toMatchSnapshot()
+  })
+
+  it('should render', () => {
+    const { toJSON } = render(
+      <IconsProvider>
+        <NativeIcon name="add" />
+      </IconsProvider>
+    )
+
+    expect(toJSON()).toMatchSnapshot()
   })
 })
